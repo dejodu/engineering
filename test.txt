@@ -1,4 +1,4 @@
-class  Car():
+class  Car():#Коментарий 1
     def __init__(self, mark, color, transmission):
         self.mark= mark
         self.color= color
