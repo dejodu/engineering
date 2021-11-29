@@ -17,7 +17,7 @@ class  Car():
         self.color = input()
         
     def ch_transmission(self):
-        print("Введите трансмиссию")
+        print("Введите транссмисию")
         self.transmission = input()
         
     def new(self):
@@ -87,4 +87,4 @@ while all != 1:
         transmission= input()
         transmission = f"{transmission}"
         car=Car(mark, color, transmission)
-        print(car.new())
+        print(car)
