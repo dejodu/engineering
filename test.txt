@@ -7,7 +7,7 @@ class  Car():
     def __str__(self):
            return "\n".join ([f" Марка: {self.mark}",
                               f" Цвет: {self.color}",
-                              f" Трансмисия: {self.transmission}"])
+                              f" Трансмисcия: {self.transmission}"])
     def ch_mark(self):
         print("Введите марку") 
         self.mark = input()
