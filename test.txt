@@ -9,7 +9,7 @@ class  Car():
                               f" Цвет: {self.color}",
                               f" Трансмисcия: {self.transmission}"])
     def ch_mark(self):
-        print("Введите марку") #something
+        print("Введите марку") 
         self.mark = input()
         
     def ch_color(self):
